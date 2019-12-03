@@ -1,0 +1,186 @@
+body{
+    height: 100%;
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.884), rgba(255, 255, 255, 0.315)), url('Screenshot_20181005-191044.png');*/
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, rgba(85, 88, 219, 0.3), rgba(85, 88, 219, 0.3)), url('images/Screenshot_20181005-191044.png');
+}
+
+header img{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+header ul{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    list-style-type: none;
+}
+header ul li{
+   display: inline-block; 
+   margin-right: 25px;
+   font-size: 20px;
+}
+
+header #abt{
+    padding: 50px;
+    padding-top: 80px;
+    width: 500px;
+}
+
+header #other a{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 10px rgba(85, 88, 219, 0.25);
+    border-radius: 5px;
+}
+
+.more{
+    position: absolute;
+    top: 410px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.more #report{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.more #track_crime{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+}
+.more #broadcast_crime{
+    float: left;
+    width: 30%;
+}
+
+.video_block{
+    position: absolute;
+    top: 600px;
+    left: 0;
+    width: 100%;
+    height: 280px;
+    clear: left;
+    background-color: blue;
+}
+
+.video_block .vid_border{
+    position: absolute;
+    top: 20px;
+    width: 80%;
+}
+
+.video_block .vid_border h3{
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+
+.video_block .vid_border .vid_card_holder{
+    margin-top: -10px;
+}
+
+.video_block .vid_card {
+    margin-left: 100px;
+    
+}
+
+.missing_person{
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 10px rgb(182, 154, 154);
+}
+.missing_person .img_border{
+    position: absolute;
+    top: 20px;
+    width: 80%;
+}
+.missing_person .img_border h3{
+    margin-left: 100px;
+    color: blue;
+
+}
+.missing_person .img_border .img_card{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.missing_person .img_border .img_card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.statistics{
+    position: absolute;
+    top: 1350px;
+}
+
+.statistics img{
+    width: 100%;
+}
+
+.latest_news{
+    position: absolute;
+    top: 2100px;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+
+.latest_news .img_border .img_card{
+    border: 1px solid rgb(197, 192, 192);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(182, 154, 154);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-right: 25px;
+    
+}
+
+.latest_news .img_border .img_card img{
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+}
+
+.footer{
+    position: absolute;
+    top: 2550px;
+    margin-left: 100px;
+}
+.footer .ul_holder ul {
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+
+.footer .ul_holder ul li{
+   margin-right: 70px; 
+}
+
+.footer .ul_holder ul li #icon{
+   background-color: blue;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   padding: 10px;
+}
+
